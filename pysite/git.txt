@@ -84,6 +84,9 @@
    git help
    git tag -h
 
+20 клонирование
+
+
 ------------------------------------------
 исправление ошибки HEAD detached from 87dc87b
 Это может означать, что вы делали какую-то навигацию по истории коммитов, и неправильно вернулись к последнему коммиту.
@@ -125,4 +128,7 @@ git reflog
 
 git checkout HEAD@{1}
 
-тест
+-----------------------
+ошибка fatal: remote origin already exists.
+вместо git remote add origin https://github.com/LongKnight/git-basics.git
+пишем  git remote set-url origin https://github.com/LongKnight/git-basics.git
