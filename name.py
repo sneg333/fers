@@ -3,7 +3,7 @@
 # while klik == 'y':
 #     vibor = input("хотите посмотреть все гостиници? y или n \n")
 #     print(vibor)
-
+# 2
 print(" выбор места жилья.\n")
 
 
