@@ -1,7 +1,4 @@
 # -*- coding: utf-8 -*-
-
-
-
 # klik = 'y'
 # while klik == 'y':
 #     vibor = input("хотите посмотреть все гостиници? y или n \n")
