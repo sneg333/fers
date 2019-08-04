@@ -7,7 +7,11 @@ class Bron:
         test.append(red)
 
         print('итак приглашены ' + str (test))
+
         red = input ("добавить кого-то ? да, не добавлять - нет' \n")
+
+        red = input ("добавить кого-то ? да/нет' \n")
+
         print('вы выбрали ', red)
         print('итак приглашены ' + str(test))
         print('всего ' + str(len(test)) + ' человек') #функция len суммирует количество в массиве
@@ -17,6 +21,7 @@ class Bron:
                 red = Bron()
         else:
             print ('конец программы \n')
+
 
 bro = Bron()
 
@@ -44,5 +49,6 @@ class Bron:
                 red = Bron()
         else:
             print ('конец программы \n')
+
 
 bro = Bron()
