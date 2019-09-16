@@ -78,6 +78,8 @@
 	git push -u origin master
 
 16. Отправить изменения в удаленный репозиторий
+   git push origin master
+   или
    git push -u origin <ветка>
 
 17. Получить изменения из удаленного репозитория
