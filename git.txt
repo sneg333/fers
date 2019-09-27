@@ -77,6 +77,14 @@
 	git remote set-url origin git@github.com:someuser/testme.git если обновляем
 	git push -u origin master
 
+If Error: fatal: remote origin already exists.
+git remote -v show // смотрим, чтобы стоял верный путь
+git remote rm origin //если не верный. удаляем
+git remote add origin git@github.com:myname/myprojectname.git // добавляем заново репозиторий
+
+git push origin master
+
+
 16. Отправить изменения в удаленный репозиторий
    git push origin master
    или
