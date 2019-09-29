@@ -93,6 +93,8 @@ git push origin master
 17. Получить изменения из удаленного репозитория
    git pull origin <ветка>
    git pull origin <ветка> --allow-unrelated-histories
+сделать клон репозитория на своём компе
+git clone https://github.com/myuser/project.git
 
 18. Сравнение коммитов
    git diff HEAD
