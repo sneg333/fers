@@ -52,8 +52,8 @@
    git checkout -b <имя_ветки> => short way
 
 10. Слияние веток
-   git checkout <имя_ветки1>
-   git merge <имя_ветки2>
+	git checkout master
+	git merge style
 
 11. Удаление ветки
    git branch -d <имя_ветки1>
