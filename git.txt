@@ -20,7 +20,12 @@
 
 2. Создаем проект и репозиторий Git
    git init
-   git clone <url>
+
+	скачать удалённый репозиторий с git на локальный компьютер	
+   git clone <url> 
+	скачиваются все ветки, что бы посмотреть все ветки нужно git branch -a
+	дальше перейти  в нужную ветку 
+   			  git checkout
 
 3. Проверка состояния
    git status
@@ -51,9 +56,9 @@
 
    git checkout -b <имя_ветки> => short way
 
-10. Слияние веток
+10. Слияние веток в мастер
 	git checkout master
-	git merge style
+	git merge <имя ветки>
 
 11. Удаление ветки
    git branch -d <имя_ветки1>
