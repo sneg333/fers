@@ -100,6 +100,8 @@ git push origin master
    git pull origin <ветка> --allow-unrelated-histories
 сделать клон репозитория на своём компе
 git clone https://github.com/myuser/project.git
+если ошибка 
+git pull origin master --allow-unrelated-histories
 
 18. Сравнение коммитов
    git diff HEAD
